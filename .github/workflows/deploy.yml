@@ -22,8 +22,8 @@ jobs:
 
       - name: Install and Build 🔧 # Build the Project
         run: |
-          npm install --force
           npm install node-sass
+          npm install --force
           npm run build
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
