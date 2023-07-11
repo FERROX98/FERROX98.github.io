@@ -186,7 +186,7 @@ const workExperiences = {
       date: "May 2022 – Present",
       desc: "",
       descBullets: [
-        "Design and development of banking systems for the financing of public entities provided by the Cassa Depositi e Prestiti d'italia.",
+        "Design and development of banking systems.",
       ]
     }
   ]
