@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/FERROX98",
   linkedin: "https://www.linkedin.com/in/daniel-ferro-851294180/",
-  gmail: "saadpasta70@gmail.com",
+  gmail: "danielferro19@gmail.com",
   stackoverflow: "https://stackoverflow.com/users/15454584/daniel-ferro",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
