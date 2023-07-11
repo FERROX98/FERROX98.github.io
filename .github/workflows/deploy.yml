@@ -22,7 +22,7 @@ jobs:
 
       - name: Install and Build 🔧 # Build the Project
         run: |
-          npm install node-sass
+          npm install node-sass --force
           npm install --force
           npm run build
       - name: Deploy 🚀
