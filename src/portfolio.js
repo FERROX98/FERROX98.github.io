@@ -4,7 +4,11 @@
 
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
-
+import cloud from "./assets/images/cloud-academy-logo-png-transparent.png";
+import sapienza from "./assets/images/sapienzaLogo.png";
+import reply from "./assets/images/replyLogo.png";
+import lstm from "./assets/images/architettura.png";
+import docker from "./assets/images/docker.png";
 // Splash Screen
 
 const splashScreen = {
@@ -132,7 +136,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Sapienza University of Rome",
-      logo: require("./assets/images/sapienzaLogo.png"),
+      logo: sapienza,
       subHeader: "Bachelor's degree in Computer Science",
       duration: "Sep 2018 - Dic 2021",
       desc: "Thesis in artificial intelligence, i.e. the creation of a system based on deep learning for the recognition of dynamic hand gestures, the model is based on Deep LSTM reaching an accuracy of 92% in recognizing the gestures of the DHG 14 / 28 dataset ",
@@ -182,7 +186,7 @@ const workExperiences = {
     {
       role: "Software Engineer",
       company: "Reply",
-      companylogo: require("./assets/images/replyLogo.png"),
+      companylogo: reply,
       date: "May 2022 – Present",
       desc: "",
       descBullets: [
@@ -207,7 +211,7 @@ const bigProjects = {
   subtitle: "Hand Gesture Recognition based on Deep Learning",
   projects: [
     {
-      image: require("./assets/images/architettura.png"),
+      image: lstm,
       projectName: "HAND GESTURE RECONGITION BASED ON DEEP LEARNING",
       projectDesc: "Development, research and implementation of a D-LSTM artificial intelligence capable of recognizing dynamic hand gestures with an accuracy of 92% sl dataset DHG 14/28.",
       footerLink: [
@@ -235,7 +239,7 @@ const achievementSection = {
       title: "Java",
       subtitle:
         "Java basic course.",
-      image: require("./assets/images/cloud-academy-logo-png-transparent.png"),
+      image: cloud,
       footerLink: [
         {
           name: "Certification",
@@ -247,7 +251,7 @@ const achievementSection = {
       title: "Docker (DCA)",
       subtitle:
         "Docker Certified Associate Exam.",
-      image: require("./assets/images/cloud-academy-logo-png-transparent.png"),
+      image: docker,
       footerLink: [
         {
           name: "Certification",
